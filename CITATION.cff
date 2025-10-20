@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Energy-Efficient Task Allocation Strategies for Green Cloud Data Centers"
+message: "If you use this repository structure or documentation, please cite it."
+type: software
+authors:
+  - given-names: "Your"
+    family-names: "Name"
+    affiliation: "Your Organization"
+version: "0.1.0"
+date-released: "2025-10-20"
+repository-code: "https://github.com/yourname/green-cloud-energy-efficient-allocation"

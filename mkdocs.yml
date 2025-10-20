@@ -1,0 +1,28 @@
+site_name: Energy-Efficient Task Allocation (Green Cloud)
+theme:
+  name: material
+nav:
+  - Overview: docs/overview.md
+  - Architecture: docs/architecture.md
+  - Energy Model: docs/energy-model.md
+  - Carbon Accounting: docs/carbon-accounting.md
+  - Algorithms: docs/algorithms.md
+  - API: docs/api.md
+  - Experiments: docs/experiments.md
+  - Datasets: docs/datasets.md
+  - Results Template: docs/results-template.md
+  - Threat Model: docs/threat-model.md
+  - Roadmap: docs/roadmap.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.details
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourname/green-cloud-energy-efficient-allocation
