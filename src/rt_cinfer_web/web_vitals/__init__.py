@@ -1,0 +1,1 @@
+"""Web-vitals domain logic."""

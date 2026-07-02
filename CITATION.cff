@@ -1,11 +1,23 @@
 cff-version: 1.2.0
-title: "Energy-Efficient Task Allocation Strategies for Green Cloud Data Centers"
-message: "If you use this repository structure or documentation, please cite it."
+title: "RT-CInfer-Web: Real-Time Causal Inference for E-Commerce Web Infrastructure"
+message: "If you use this software, please cite it using this metadata."
 type: software
 authors:
-  - given-names: "Your"
-    family-names: "Name"
-    affiliation: "Your Organization"
-version: "0.1.0"
-date-released: "2025-10-20"
-repository-code: "https://github.com/yourname/green-cloud-energy-efficient-allocation"
+  - family-names: Lin
+    given-names: Han
+version: 0.1.0
+date-released: 2026-06-01
+license: MIT
+repository-code: "https://github.com/hanlin-afk/rt-cinfer-web"
+keywords:
+  - causal inference
+  - Web Vitals
+  - online learning
+  - e-commerce infrastructure
+  - counterfactual A/B testing
+abstract: >
+  RT-CInfer-Web is a research-oriented reference implementation for streaming
+  causal inference over e-commerce Web Vitals. It combines structural causal
+  models, online doubly robust estimation, drift detection, counterfactual
+  rollout simulation, and calibrated uncertainty gates for intervention
+  recommendations.

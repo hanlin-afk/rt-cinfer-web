@@ -1,21 +1,15 @@
-# Contributing Guide
+# Contributing
 
-Thanks for your interest in contributing! This repository is **docs-first** and sets a high bar for **reproducibility** and **research ethics**.
+Contributions are welcome if they improve transparency, reproducibility, or causal validity.
 
-## Development workflow
-1. Open an issue describing the change (bug, feature, or doc).
-2. Fork and create a feature branch: `git checkout -b feat/my-idea`.
-3. Follow the **API contracts** in `docs/api.md`. If you change an interface, submit a separate proposal PR.
-4. Add or update experiment descriptions in `docs/experiments.md`. Ensure all metrics are explicitly defined.
-5. Run linters and unit tests (once code is added) via `make test`.
-6. Submit a PR and fill out the PR checklist.
+## Good contributions
 
-## Style
-- Python code: PEP8/PEP484 (typing). Prefer pure functions for simulators.
-- Reproducibility: Fix random seeds; document versions.
-- Documentation: Prefer concise text, equations (LaTeX in Markdown), and clear tables.
+- stronger identifiability diagnostics;
+- additional Web Vitals interventions;
+- benchmark scenarios with clearly documented ground truth;
+- integrations with real streaming frameworks;
+- more extensive tests and documentation.
 
-## Ethics & reproducibility
-- Declare data sources, licenses, and synthetic-data generation methods.
-- Never fabricate results. Include negative/neutral outcomes.
-- Provide exact commands to reproduce each figure or table.
+## Evidence policy
+
+Do not add fabricated adoption claims, fake benchmark numbers, backfilled commit history, or unverified production results. Synthetic and real-world evidence must be clearly separated.
